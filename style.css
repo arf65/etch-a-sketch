@@ -1,0 +1,20 @@
+body {
+	height: 100vh;
+	display: grid;
+	align-content: space-around;
+	justify-items: center;
+}
+
+button {
+	height: 2em;
+	font-size: 1.2em;
+	background-color: black;
+	color: white;
+	outline: none;
+}
+
+#gridContainer {
+	display: grid;
+	grid-template-columns: repeat(16, 2em);
+	grid-template-rows: repeat(16, 2em);
+}
