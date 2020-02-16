@@ -1,8 +1,21 @@
 body {
 	height: 100vh;
+	/* display: grid;
+	align-content: space-around;
+	justify-items: center; */
+}
+h1 {
+	margin-top: 50px;
+	padding: 0;
+}
+button {
+	margin: auto;
+}
+
+#outerContainer {
 	display: grid;
 	align-content: space-around;
-	justify-items: center;
+	grid-template-rows: 100px 100px auto;
 }
 
 button {
@@ -14,7 +27,9 @@ button {
 }
 
 #gridContainer {
+	max-width: 1000px;
+	max-height: 1000px;
 	display: grid;
-	grid-template-columns: repeat(16, 2em);
-	grid-template-rows: repeat(16, 2em);
+	/* grid-template-columns: repeat(16, 2em);
+	grid-template-rows: repeat(16, 2em); */
 }
